@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo_portafolio.svg">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logotipo.png" alt="Logo portafolio">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+        </nav>
+    </header>
+    <div id="burger">
+        <div class="barra superior"></div>
+        <div class="barra media"></div>
+        <div class="barra inferior"></div>
+    </div>
+    <div class="menu">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <hr>
+            <a href="proyectos.html">Proyectos</a>
+            <hr>
+            <a href="hobbies.html">Hobbies</a>
+            <hr>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="copyright">&copy; ACME Inc</p>
+    </div>
+
+    <div class="fila contacto">
+        <div class="col-100 flex-column-center">
+            <p> <strong>¡Hola!</strong></p>
+            <p>Completa el siguiente formulario para hablar sobre cómo podríamos desarrollar un próximo proyecto juntos. Puedes contactarme por WhatsApp, correo o LinkedIn.</p>
+            <form class="contacto">
+                <div class="fila">
+                    <input class="usuario" type="text" placeholder="Nombre y apellidos">
+                </div>
+                <div class="fila">
+                    <input class="email" type="email" placeholder="Correo">
+                </div>
+                <div class="fila">
+                    <input class="mensaje" type="mensaje" placeholder="Mensaje">
+                </div>
+                <div class="fila flex-end">
+                    <button type="submit">Enviar</button>
+                </div>
+                <div class="fila flex-center">
+                    <input type="checkbox" id="condiciones">
+                    <label for="condiciones">
+                        Acepto las condiciones.
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="fila">
+        <div class="col-33">
+            <p>María Fernanda Fuentes Romero</p>
+            <p class="flex-start">
+                <img class="m-r-small" src="img/map.svg" alt="Icono de mapa">
+                Bogotá, Colombia
+            </p>
+            <p class="flex-start">
+                <img  class="m-r-small" src="img/phone.svg" alt="Icono de teléfono">
+                +57 3102984874
+            </p>
+            <p class="flex-start">
+                <img  class="m-r-small" src="img/mail.svg" alt="Icono de email">
+                maferfuentes10@gmail.com
+            </p>
+        </div>
+        <div class="col-33">
+            <div class="flex-around">
+                <img class="rs" src="img/whatsapp.svg" alt="icono whatsapp">
+                <img class="rs" src="img/facebook.svg" alt="icono facebook">
+                <img class="rs" src="img/instagram.svg" alt="icono instagram">
+            </div>
+            <div class="flex-around m-t">
+                <a href="contacto.html#legal">Aviso legal</a>
+                <a href="contacto.html#cookies">Política de cookies</a>
+            </div>
+            <p class="copyright m-t">&copy; Portafolio | María Fernanda Fuentes Romero All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
